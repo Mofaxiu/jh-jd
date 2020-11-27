@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .nav1 {
+            width: 100%;
+            height: 80px;
+            background-color: #D80362;
+        }
+
+        .box1 {
+            width: 1190px;
+            height: 100%;
+            margin: 0px 357px 0px 360px;
+        }
+
+        .box0 {
+            font-size: 15px;
+
+        }
+
+        .box1 img {
+            height: 68px;
+            width: 68px;
+
+        }
+
+        .p1 {
+            margin: 6px 0 6px 310px;
+
+        }
+
+        .p2,
+        .p3 {
+            margin: 6px 0 6px 38px;
+        }
+
+        .nav2 {
+            width: 100%;
+            height: 31px;
+            background-color: #E3E4E5;
+            font-size: 12px;
+            line-height: 31px;
+            color: #999999;
+        }
+
+        .np1 {
+            margin-left: 363px;
+        }
+
+        .np2 {
+            margin-left: 432px;
+        }
+
+        .np3 {
+            margin-left: 33px;
+        }
+
+        a {
+            color: #FF0000;
+            text-decoration: none;
+        }
+
+        .nav3 {
+            width: 100%;
+            height: 141px;
+            background-color: #FFFFFF;
+
+        }
+
+        .n3p1 {
+            width: 192px;
+            height: 120px;
+            margin-left: 353px;
+        }
+
+        .nav4 {
+            width: 640px;
+            height: 36px;
+            display: inline-block;
+            margin-bottom: 49px;
+            font-size: 12px;
+            color: #B5B5B5;
+            border: 1px solid red;
+        }
+
+        .nav5 {
+
+            margin-left: 628px;
+            margin-top: 10px;
+
+        }
+
+        .body1 {
+            background-color: #F4F4F4;
+            width: 1530px;
+            height: 710px;
+        }
+
+        .nav6 {
+            width: 1930;
+            height: 1px;
+            border: 1px solid black;
+        }
+
+        .a6 {
+            text-align: left;
+
+
+        }
+
+        .bod1 td {
+            margin-right: 5px;
+        }
+
+        .tr1 {
+            width: 441px;
+            height: 35px;
+            border: 1px solid red;
+        }
+
+        .tr2 {
+            background-color: #ff0000;
+            text-align: center;
+            width: 160px;
+            font-size: 20px;
+        }
+
+        .tr3 {
+            font-size: 30px;
+            line-height: 35px;
+            width: 55px;
+        }
+
+        .a2 {
+            margin-left: 500px;
+        }
+
+        .a3 {
+            margin-left: 30px;
+        }
+
+        .td1 {
+            width: 520px;
+        }
+
+        .td4 {
+            text-align: right;
+        }
+
+        .body2 {
+            width: 100%;
+            height: 550px;
+            background-color: #F4F4F4;
+            margin-top: 10px;
+        }
+
+        .b0 {
+            width: 190px;
+            height: 550px;
+            background-color: #FEFEFE;
+            margin-left: 356px;
+            display: inline-block;
+            overflow: hidden;
+        }
+
+        .b1 {
+            margin-left: 20px;
+            padding-top: 10px;
+            display: inline-block;
+            overflow: hidden;
+            margin-top: 0;
+            margin-bottom: 30xp;
+        }
+
+        .b1 p {
+            color: #333333;
+            font-size: 14px;
+            margin-top: 10px;
+        }
+
+        .s1 {
+            display: inline-block;
+            background-color: pink;
+            width: 589px;
+            height: 550px;
+            margin-left: 20px;
+
+        }
+
+        .p4 {
+            width: 589px;
+            height: 550px;
+        }
+
+        .boy3 {
+            display: inline-block;
+            height: 500px;
+            width: 208px;
+
+        }
+
+        .c1 {
+            width: 190px;
+            height: 150px;
+            padding: 17px;
+        }
+
+        .s4 {
+            display: inline-block;
+            height: 100%;
+            width: 180px;
+
+        }
+
+        .s5 {
+            height: 190px;
+            width: 150px;
+            background-color: #F4F4F4;
+        }
+
+        .s6 {
+            height: 190px;
+            width: 150px;
+            display: inline-block;
+            padding: 5px;
+
+        }
+
+        .ul1 {
+            list-style: none;
+            display: inline-block;
+            font-size: 10px;
+            padding: 5px;
+
+        }
+
+
+        .s7 {
+            height: 235px;
+            width: 192px;
+            display: inline-block;
+            padding: 100px;
+        }
+
+        .end1 {
+            float: left;
+            height: 261px;
+            width: 189px;
+            background-color: #E83632;
+            color: white;
+
+        }
+
+        .end2 {
+            display: block;
+            margin: 38px 36px 0;
+            overflow: hidden;
+        }
+
+        .end3 {
+            display: block;
+            margin: 101px 20px 0px;
+            font-size: 15px;
+        }
+
+        .end4 {
+            margin: 18px 30px 0;
+            display: inline-block;
+        }
+
+        .end5 {
+            background-color: black;
+
+        }
+
+        .zui {
+
+            width: 1020px;
+            margin: 20px auto;
+            /*background-color: pink;*/
+            overflow: hidden;
+        }
+
+        .z1 {
+            float: left;
+            height: 261px;
+            width: 205px;
+            /* background-color: blue;*/
+            position: relative;
+        }
+
+        .y1 {
+            position: absolute;
+            top: 20px;
+            left: 30px;
+            width: 130px;
+            height: 130px;
+        }
+
+        .y2 {
+            position: absolute;
+            top: 200px;
+            width: 100%;
+            font-size: 12px;
+            text-align: center;
+        }
+
+        .y3 {
+            position: absolute;
+            bottom: 2px;
+            width: 100%;
+            text-align: center;
+        }
+
+        .bg-red {
+            float: left;
+            margin-left: 30px;
+            background-color: red;
+            padding: 3px;
+
+        }
+
+        .bg-white {
+            background-color: white;
+            float: left;
+            padding: 3px;
+            text-decoration: line-through;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="nav1">
+        <div class="box1">
+            <img src="image\3ff22cb3f837cc38.jpg.webp" alt="" class="p1">
+            <img src="image\5b3c2949N20d5cdd3.jpg.webp" alt="" class="p2">
+            <img src="image\02f6b8ce1dd6156e.jpg.webp" alt="" class="p3">
+        </div>
+    </div>
+    <div class="nav2">
+        <span class="np1"><a href="#"> </a>北京</span>
+        <span class="np2">你好，请登录</span>
+        <a href="#" class="np3">免费注册</a>
+        <span class="np3">我的订单</span>
+        <span href="#" class="np3">我的京东</span>
+        <span href="#" class="np3">京东会员</span>
+        <a href="#" class="np3">企业采购</a>
+        <span class="np3">客服服务</span>
+        <span class="np3">网站导航</span>
+        <span class="np3">手机京东</span>
+    </div>
+    <div class="nav3">
+        <img src="image\0e84e116a4065509.jpg.webp" alt="" class="n3p1">
+
+        <table class="nav4" cellspacing="0">
+            <tr class="tr1">
+                <td colspan="7">
+                    <div class="td1"></div>
+                </td>
+                <td>
+                    <div class="tr3"> </div>
+                </td>
+                <td class="tr2"></td>
+            </tr>
+            <tr class="bod1">
+                <td>
+                    <a href="#" class="a6">运动户外惠</a>
+                </td>
+                <td class="td2">超级爆品</td>
+                <td>一件五折</td>
+                <td>海鲈鱼</td>
+                <td>底至1元</td>
+                <td>爆款电报</td>
+                <td>300减去40</td>
+                <td>每100-50</td>
+                <td class="td4">好物5折</td>
+            </tr>
+        </table>
+        <p class="box0">
+            <a href="#" class="a2">秒杀</a>
+            <a href="#" class="a3">优惠卷</a>
+            <span class="a3">PLUS会员</span>
+            <span class="a3">品牌闪购</span>
+            <span class="a3">拍卖</span>
+            <span class="a3">京东家电</span>
+            <span class="a3">京东超市</span>
+            <span class="a3">京东生鲜</span>
+            <span class="a3">京东国际</span>
+            <span class="a3">京东金融</span>
+        </p>
+    </div>
+    <div class="body2">
+        <div class="b0">
+            <div class="b1">
+                <p>家用电器</p>
+                <p>手机/运营商/数码</p>
+                <p>电脑/办公</p>
+                <p>家居/家具/家装/厨具</p>
+                <p>男装/女装/童装/内衣</p>
+                <p>美妆/个人清洁/宠物</p>
+                <p>女鞋/箱包/钟表/珠宝</p>
+                <p>男鞋/运动/户外</p>
+                <p>房产/汽车/汽车用品</p>
+                <p>母婴/玩具乐器</p>
+                <p>食品/酒类/生鲜/特产</p>
+                <p>艺术/礼品鲜花/农资绿植</p>
+                <p>医学保健/计生情趣</p>
+                <p>图书/文娱/教育/电子书</p>
+                <p>机票/酒店/旅游/生活</p>
+                <p>理财/众筹/白条/保险</p>
+                <p>安装/维修/清洗/二手</p>
+                <p>工业品</p>
+            </div>
+
+        </div>
+        <div class="s1">
+            <img src="image\8f0fa5b098fba280.jpg.webp" alt="" class="p4">
+        </div>
+        <div class="boy3">
+            <img src="image\5bdaeb92b137a93d.jpg.webp" alt="" class="c1">
+            <img src="image\480646fd1f5c456f.jpg!cc_130x130.webp" alt="" class="c1">
+            <img src="image\d03f379ad2f6db0f.png!cc_190x100.webp" alt="" class="c1">
+        </div>
+        <div class="s4">
+            <div class="s5"></div>
+
+            <h4>京东快报</h4>
+            <ul class="ul1">
+                <li><a href="#">热议</a>纸尿裤多久更换一次...</li>
+                <li><a href="#">推荐</a>vivo z5x评测：肆意...</li>
+                <li><a href="#">热门</a>冲奶粉不做这个动作...</li>
+                <li><a href="#">推荐</a>票友圈装优雅不叫算...</li>
+            </ul>
+            <div class="s6"></div>
+        </div class="s7">
+    </div>
+    </div>
+    <div class="zui">
+        <div class="end1">
+            <h2 class="end2">京东秒杀</h2>
+            <p class="end3">12：00电场 倒计时</p>
+            <p class="end4">
+                <span class="end5">00</span> :
+                <span class="end5">00</span> :
+                <span class="end5">00</span>
+            </p>
+        </div>
+        <div class="z1">
+            <img src="image\8c7f4f68ff23f71f.jpg.webp" alt="" class="y1">
+            <p class="y2">美国苹果/AEMAPE水龙头</p>
+            <span class="y3">
+                <p class="bg-red"> 118.00</p>
+                <p class="bg-white">118.00</p>
+            </span>
+        </div>
+        <div class="z1">
+            <img src="image\5ad87aaf3f2e50e6.jpg.webp" alt="" class="y1">
+            <p class="y2">美国苹果/AEMAPE水龙头</p>
+            <span class="y3">
+                <p class="bg-red"> 118.00</p>
+                <p class="bg-white">118.00</p>
+            </span>
+        </div>
+        <div class="z1" class="y1">
+            <img src="image\a22e5518dc287435.jpg.webp" alt="" class="y1">
+            <p class="y2">全场亿元</p>
+            <span class="y3">
+                <p class="bg-red"> 118.00</p>
+                <p class="bg-white">118.00</p>
+            </span>
+        </div>
+        <div class="z1" class="y1">
+            <img src="image\fb77c0f1fa77c63e.jpg.webp" alt="" class="y1">
+            <p class="y2">美妆开门秒杀48小时</p>
+            <span class="y3">
+                <p class="bg-red"> 118.00</p>
+                <p class="bg-white">118.00</p>
+            </span>
+        </div>
+    </div>
+
+</body>
+
+</html>
